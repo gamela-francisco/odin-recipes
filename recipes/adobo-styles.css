@@ -2,3 +2,40 @@ body {
     font-family: sans-serif;
     background-color: #30382f;
 }
+
+a {
+    color: #fffbdf;
+    text-decoration: none;
+}
+button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #30382f;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+  }
+  
+  button:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .container {
+    margin: 50px;
+    background-color: #fffbdf;
+    padding: 25px;
+    color: #30382f;
+    border-radius: 10px; /* optional, for a smooth look */
+
+    /* light-colored shadow */
+    box-shadow: 0 4px 14px rgba(213, 205, 205, 0.25);
+}
